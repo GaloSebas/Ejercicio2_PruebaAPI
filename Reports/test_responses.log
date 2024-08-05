@@ -1,0 +1,20 @@
+
+
+--- test_add_pet ---
+Status Code: 200
+Response JSON: {'id': 9223372016900012548, 'category': {'id': 0, 'name': 'string'}, 'name': 'Garfield', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'available'}
+
+
+--- test_get_pet_by_id ---
+Status Code: 200
+Response JSON: {'id': 9223372016900012548, 'category': {'id': 0, 'name': 'string'}, 'name': 'Garfield', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'available'}
+
+
+--- test_update_pet ---
+Status Code: 200
+Response JSON: {'id': 9223372016900012548, 'category': {'id': 0, 'name': 'string'}, 'name': 'FattyGarfield', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'sold'}
+
+
+--- test_get_pet_by_status ---
+Status Code: 200
+Response JSON: [{'id': 14141, 'category': {'id': 2, 'name': 'dog'}, 'name': 'ponchik', 'photoUrls': [], 'tags': [], 'status': 'sold'}, {'id': 9223372016900011963, 'category': {'id': 0, 'name': 'string'}, 'name': 'doggie-updated', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'sold'}, {'id': 9223372016900012007, 'category': {'id': 0, 'name': 'string'}, 'name': 'doggie-updated', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'sold'}, {'id': 9223372016900012028, 'category': {'id': 0, 'name': 'string'}, 'name': 'doggie-updated', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'sold'}, {'id': 9223372016900012035, 'category': {'id': 0, 'name': 'string'}, 'name': 'doggie-updated', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'sold'}, {'id': 909090, 'category': {'id': 909, 'name': 'sims'}, 'name': 'doggie', 'photoUrls': ['string'], 'tags': [{'id': 909, 'name': 'fuu'}], 'status': 'sold'}, {'id': 9223372016900012213, 'category': {'id': 0, 'name': 'string'}, 'name': 'doggie-updated', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'sold'}, {'id': 9223372016900012363, 'category': {'id': 0, 'name': 'string'}, 'name': 'chinguito', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'sold'}, {'id': 9223372016900012483, 'category': {'id': 0, 'name': 'string'}, 'name': 'doggie-updated', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'sold'}, {'id': 9223372016900012523, 'category': {'id': 0, 'name': 'string'}, 'name': 'doggie-updated', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'sold'}, {'id': 9223372016900012548, 'category': {'id': 0, 'name': 'string'}, 'name': 'FattyGarfield', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'sold'}]
