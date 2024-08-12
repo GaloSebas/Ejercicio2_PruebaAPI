@@ -1,0 +1,20 @@
+Conclusiones:
+
+    -La API de PetStore maneja correctamente la adición de una mascota a la tienda. La prueba demostró que la mascota se puede agregar con éxito usando una 
+    solicitud POST, y el ID generado en la respuesta puede ser usado para futuras consultas.
+
+    -La consulta de una mascota por ID funcionó como se esperaba. El sistema devuelve la mascota correcta cuando se usa el ID previamente obtenido.
+
+    -La API permite actualizar correctamente el nombre y el estado de una mascota. La prueba confirmó que los cambios realizados se reflejan correctamente en 
+    las respuestas de la API.
+
+    -La búsqueda de mascotas por estado devuelve los resultados correctos, mostrando que la API puede filtrar correctamente según el estado de la mascota.
+
+    -Karate es un framework de automatizacion muy facil de implementar con la ayuda de gherkin, ademas faciita la obtencion y almacenamiento de variables de los diferentes
+    responses obtenidos, que pueden ser reutilizados para futuros casos o pruebas a ejecutarse.
+    
+    -En resumen, las herramientas utilizadas proporcionan una solución completa para la automatización de pruebas API, desde la configuración de las pruebas 
+    hasta la generación de reportes y el análisis de resultados. La integración de estas herramientas demuestra ser efectiva para asegurar la calidad y el 
+    correcto funcionamiento de los servicios REST.
+
+    -El ejercicio resulta muy divertido e interesante, muy util para poner en practica los conocimientos obtenidos de automatizacion de APIs.
